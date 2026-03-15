@@ -1,0 +1,17 @@
+name: Dex
+description: A federated OpenID Connect provider that connects to other identity providers
+  through connectors, enabling authentication for applications without handling passwords
+  directly.
+url: https://dexidp.io/
+tags:
+- Authentication
+- Identity Provider
+- OpenID Connect
+- OIDC
+- Single Sign-On
+- SSO
+- Federation
+created: '2025'
+modified: '2025'
+apis: []
+common: []
