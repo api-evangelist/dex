@@ -1,17 +1,32 @@
+aid: dex
 name: Dex
-description: A federated OpenID Connect provider that connects to other identity providers
-  through connectors, enabling authentication for applications without handling passwords
-  directly.
-url: https://dexidp.io/
+description: >-
+  A federated OpenID Connect provider that connects to other identity providers
+  through connectors, enabling authentication for applications without handling
+  passwords directly. Dex acts as a portal to other identity providers through
+  connectors, making it easy to implement SSO across multiple providers.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Authentication
-- Identity Provider
-- OpenID Connect
-- OIDC
-- Single Sign-On
-- SSO
-- Federation
-created: '2025'
-modified: '2025'
+  - Authentication
+  - Identity Provider
+  - OpenID Connect
+  - OIDC
+  - Single Sign-On
+  - SSO
+  - Federation
+url: https://dexidp.io/
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://dexidp.io/
+  - type: Documentation
+    url: https://dexidp.io/docs/
+  - type: GitHub Organization
+    url: https://github.com/dexidp
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
