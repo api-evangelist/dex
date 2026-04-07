@@ -9,12 +9,12 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Authentication
+  - Federation
   - Identity Provider
-  - OpenID Connect
   - OIDC
+  - OpenID Connect
   - Single Sign-On
   - SSO
-  - Federation
 url: https://dexidp.io/
 created: '2025-01-01'
 modified: '2026-03-16'
