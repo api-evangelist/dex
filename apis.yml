@@ -57,7 +57,7 @@ common:
     url: https://dexidp.io/
   - type: Documentation
     url: https://dexidp.io/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/dexidp
   - type: Repository
     url: https://github.com/dexidp/dex
