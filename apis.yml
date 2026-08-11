@@ -65,6 +65,16 @@ apis:
       - type: Repository
         url: https://github.com/dexidp/dex
 common:
+  - type: IssueTracker
+    url: https://github.com/dexidp/dex/issues
+  - type: Releases
+    url: https://github.com/dexidp/dex/releases
+  - type: SecurityPolicy
+    url: https://github.com/dexidp/dex/blob/master/.github/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/dexidp/dex/blob/master/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/dexidp/dex/blob/master/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/dex-domain-security.yml
   - type: Website
