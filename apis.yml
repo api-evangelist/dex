@@ -29,6 +29,18 @@ tags:
   - gRPC
   - Identity Provider
   - LDAP
+  - OIDC
+  - OpenID Connect
+  - SAML
+  - Single Sign-On
+  - SSO
+tags_raw:
+  - Authentication
+  - Connectors
+  - Federation
+  - gRPC
+  - Identity Provider
+  - LDAP
   - OAuth 2.0
   - OIDC
   - OpenID Connect
