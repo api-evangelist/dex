@@ -45,7 +45,6 @@ tags:
   - gRPC
   - Identity Provider
   - LDAP
-  - OIDC
   - OpenID Connect
   - SAML
   - SSO
@@ -78,6 +77,12 @@ apis:
       in api/v2/api.proto in the dexidp/dex repository.
     humanURL: https://dexidp.io/docs/configuration/api/
     tags:
+      - Authentication
+      - gRPC
+      - Identity
+      - Management API
+      - OpenID Connect
+    tags_raw:
       - Authentication
       - gRPC
       - Identity
