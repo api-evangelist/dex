@@ -1,4 +1,4 @@
-# Dex (dex)
+# Dex
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,47 +66,101 @@
 
 A federated OpenID Connect provider that connects to other identity providers through connectors, enabling authentication for applications without handling passwords directly. Dex acts as a portal to other identity providers through connectors, making it easy to implement SSO across multiple providers. Dex is a single Go binary with pluggable storage and ships with a gRPC management API (api/v2/api.proto) for managing OAuth2 clients, passwords, connectors, and refresh tokens, alongside the standard set of OIDC endpoints.
 
-**URL:** [Visit APIs.json URL](https://dexidp.io/)
+**Areas:** Authentication · Connectors · Federation · gRPC · Identity Provider · LDAP · OpenID Connect · SAML · SSO
 
-## Scope
+## Dex on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Dex is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dex/](https://apis.io/providers/dex/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
-- Authentication, Connectors, Federation, gRPC, Identity Provider, LDAP, OAuth 2.0, OIDC, OpenID Connect, SAML, Single Sign-On, SSO
+- [Dex gRPC API](https://apis.io/apis/dex/grpc-api/) — gRPC management API for Dex covering OAuth2 client lifecycle (Create, Get, Update, Delete, List), password management (Create, Update, Delete, List,…
 
-## APIs
+### Published properties
 
-### Dex gRPC API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-gRPC management API for Dex covering OAuth2 client lifecycle (Create, Get, Update, Delete, List), password management (Create, Update, Delete, List, Verify), identity provider connector management (Create, Update, Delete, List), refresh token listing and revocation, OpenID Connect discovery retrieval, and version reporting. The canonical schema lives in api/v2/api.proto in the dexidp/dex repository.
+#### Security (1)
 
-- **Human URL:** https://dexidp.io/docs/configuration/api/
-- **Base URL:** https://dexidp.io
-- **Tags:** Authentication, gRPC, Identity, Management API, OIDC
-- **Properties:**
-  - [Documentation](https://dexidp.io/docs/configuration/api/)
-  - [SourceCode](https://github.com/dexidp/dex/blob/master/api/v2/api.proto)
-  - [Repository](https://github.com/dexidp/dex)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Dex Domain Security](https://apis.io/security/dex/dex-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dex Plans Pricing](https://apis.io/plans/dex/dex-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dex Rate Limits](https://apis.io/rate-limits/dex/dex-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dex Finops](https://apis.io/finops/dex/dex-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://dexidp.io/)
 - [Documentation](https://dexidp.io/docs/)
-- [GitHub Organization](https://github.com/dexidp)
-- [Repository](https://github.com/dexidp/dex)
-- [License](https://github.com/dexidp/dex/blob/master/LICENSE)
+- [GitHub](https://github.com/dexidp)
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+**Kin Score 18.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
 
-**FN:** Kin Lane
+**Agent readiness 0.6** — human-only
 
-**Email:** kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dex/](https://apis.io/providers/dex/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dex: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
